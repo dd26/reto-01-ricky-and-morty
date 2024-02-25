@@ -1,0 +1,13 @@
+.star-container {
+  position: relative;
+  background-color: #E0E0E0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.column-cont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}

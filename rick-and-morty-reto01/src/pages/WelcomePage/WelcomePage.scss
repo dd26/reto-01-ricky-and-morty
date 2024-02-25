@@ -1,0 +1,28 @@
+.home-screen-page {
+  background-image: url('../../../public/home/portal-morty-smith-rick.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+}
+
+.home-screen-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000B2;
+}
+
+.home-screen-content {
+  z-index: 2 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
